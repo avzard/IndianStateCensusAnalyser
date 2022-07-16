@@ -5,17 +5,13 @@ using System.Text;
 
 namespace CensusAnalyser
 {
-	/// <summary>
-	/// StateCensusAnalyser Class To Analyse The StateCensus Data.
-	/// </summary>
+	
 	public class StateCensusAnalyser
 	{
 		/// <summary>
 		/// ReadStateCensus Function Reads CSV File in List and returns List Count. 
 		/// </summary>
-		/// <param name="filePath"></param>
-		/// <param name="delimiter"></param>
-		/// <returns></returns>
+		
 		public static int ReadStateCensus(string filePath, string delimiter)
 		{
 			//If File is Invalid then Throw CensusAnalysisException.
